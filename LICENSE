@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 Tianjing
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 第三方协议声明(Third-Party Notices)
+
+本仓库内的 `SKILL.md` 及其附属资源全部来自以下上游仓库,各文件保留其原始协议:
+
+- `00-meta/using-agent-skills` 与 `10-lifecycle/*`:
+  来源 <https://github.com/addyosmani/agent-skills>,协议 **MIT**。
+  Copyright (c) Addy Osmani and contributors.
+
+- `00-meta/skill-creator`、`20-documents/*` 与 `30-communication/*`、`40-design/*`、`50-development/*`:
+  来源 <https://github.com/anthropics/skills>,协议如下:
+  - 大部分 skill:**Apache License 2.0**
+  - `20-documents/docx`、`20-documents/pdf`、`20-documents/pptx`、`20-documents/xlsx`:
+    **Source-Available**(非开源,详见 Anthropic 仓库 DISCLAIMER,仅作 Claude 文档能力的参考实现展示)
+
+本仓库对这些第三方材料**不主张新的版权**,仅做**只读镜像 + 分类整理**。
